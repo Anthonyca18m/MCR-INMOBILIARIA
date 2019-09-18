@@ -280,7 +280,11 @@ section {
   height: 90px;
 }
 
-.navbar-right li.active a {
+/*.navbar-right li.active a {
+  background-color: rgba(0,0,0,.2);
+}*/
+
+.navbar-right li a:hover{
   background-color: rgba(0,0,0,.2);
 }
 
@@ -538,17 +542,17 @@ section {
 
 .social-icons ul li a {
   color:#fff;
-  background-color: #d9d9d9;
+  /*background-color: #d9d9d9;*/
   height: 36px;
   width: 36px;
   line-height: 36px;
   display: block;
   font-size: 16px;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 
 .social-icons ul li a:hover {
-  opacity: 1;
+  /*opacity: 1;*/
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -560,19 +564,19 @@ section {
 }
 
 .team-member:hover .social-icons ul li a.facebook {
-  background-color: #3b5999;
+  /*background-color: #3b5999;*/
 }
 .team-member:hover .social-icons ul li a.twitter {
-  background-color: #2ac6f7;
+  /*background-color: #2ac6f7;*/
 }
 .team-member:hover .social-icons ul li a.dribbble {
-  background-color: #ff5b92;
+  /*background-color: #ff5b92;*/
 }
 .team-member:hover .social-icons ul li a.linkedin {
-  background-color: #036dc0;
+  /*background-color: #036dc0;*/
 }
 .team-member:hover .social-icons ul li a.rss {
-  background-color: #ff6b00;
+  /*background-color: #ff6b00;*/
 }
 
 #team .img-responsive {
@@ -866,7 +870,7 @@ ul.address {
 }
 
 #footer .footer-bottom a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .footer-logo {
@@ -885,32 +889,32 @@ ul.address {
 }
 
 #footer .social-icons ul li a {
-  background-color: rgba(0,0,0,.2);
+  /*background-color: rgba(0,0,0,.2);*/
   border-radius: 4px;
   line-height: 33px;
 }
 
 #footer .social-icons ul li a:hover {
-  color: #fff
+  /*color: #fff*/
 }
 
 #footer .social-icons ul li a.envelope:hover {
-  background-color: #CECB26;
+  /*background-color: #CECB26;*/
 }
 
 #footer .social-icons ul li a.facebook:hover {
-  background-color: #3b5999;
+  /*background-color: #3b5999;*/
 }
 #footer .social-icons ul li a.twitter:hover {
-  background-color: #2ac6f7;
+  /*background-color: #2ac6f7;*/
 }
 #footer .social-icons ul li a.dribbble:hover {
-  background-color: #ff5b92;
+  /*background-color: #ff5b92;*/
 }
 #footer .social-icons ul li a.linkedin:hover {
-  background-color: #036dc0;
+  /*background-color: #036dc0;*/
 }
 #footer .social-icons ul li a.tumblr:hover {
-  background-color: #ff6b00;
+  /*background-color: #ff6b00;*/
 }
  
